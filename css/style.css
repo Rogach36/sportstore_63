@@ -1,4 +1,29 @@
-.payment-system-list {
-  color: red;
-  background-color: #232323;
+
+@font-face {
+	font-family: 'Bebas Neue Bold';
+	src: url('../fonts/BebasNeueBold/bebas_neue_bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/BebasNeueBold/bebas_neue_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/BebasNeueBold/bebas_neue_bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/BebasNeueBold/bebas_neue_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/BebasNeueBold/bebas_neue_bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/BebasNeueBold/bebas_neue_bold.svg#bebas_neue_bold') format('svg'); /* Chrome < 4, Legacy iOS */
 }
+
+@font-face {
+	font-family: 'MyriadPro-Regular';
+	src: url('../fonts/myriad/myriadpro-regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/myriad/myriadpro-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/myriad/myriadpro-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/myriad/myriadpro-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/myriad/myriadpro-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/myriad/myriadpro-regular.svg#myriadpro-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+.main-navigation {
+    font-family: "Bebas Neue Bold", Arial, sans-serif;
+
+}
+
+/* body {
+	font-family: "MyriadPro-Regular";
+} */
