@@ -19,7 +19,13 @@
 		url('../fonts/myriad/myriadpro-regular.svg#myriadpro-regular') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
-.main-navigation {
+
+/* .presentation-slide {
+	background-image: url("../img/Layer 8.jpg");
+	height: 900px;
+	width: 1800px;
+} */
+/* .main-navigation {
     font-family: "Bebas Neue Bold", Arial, sans-serif;
 
 }
@@ -51,4 +57,4 @@
   width: 1832px;
   height: 76px;
   z-index: 246;
-}
+} */
