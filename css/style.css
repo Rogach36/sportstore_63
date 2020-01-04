@@ -24,6 +24,31 @@
 
 }
 
-/* body {
-	font-family: "MyriadPro-Regular";
-} */
+.test{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 5px 6px 0px rgba(34, 30, 31, 0.41);
+  position: absolute;
+  left: 150px;
+  top: 827px;
+  width: 1500px;
+  height: 3583px;
+  z-index: 15;
+}
+
+.main-footer {
+	width: 1800px;
+	height: 777px;
+	background-image: url();
+	background-repeat: repeat;
+}
+
+.Rectangle_9 {
+  background-color: rgb(33, 33, 33);
+  opacity: 0.749;
+  position: absolute;
+  left: 0px;
+  top: -2px;
+  width: 1832px;
+  height: 76px;
+  z-index: 246;
+}
