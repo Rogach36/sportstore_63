@@ -185,6 +185,48 @@ width: 57px;
 	margin-left: 20px;
 }
 
+.presentation-slide {
+	width: 630px;
+  margin-left: 272px;
+	padding-bottom: 134px;
+  text-transform: uppercase;
+}
+
+.title-nike-name {
+	margin-top: 163px;
+	font-family: "Poppins", Arial, sans-serif;
+	font-size: 203px;
+	font-weight: 700;
+	line-height: 147px;
+	text-align: center;
+	letter-spacing: -16px;
+}
+
+.slogan {
+	margin-top: -178px;
+	margin-bottom: 53px;;
+	margin-left: 45px;
+	font-size: 21px;
+	font-weight: 700;
+	line-height: 29px;
+	letter-spacing: 7px;
+}
+
+.order-button {
+	display: block;
+	margin-left: 242px;
+	margin-bottom: 80px;
+	padding-top: 15px;
+	padding-bottom: 12px;
+	width: 160px;
+	border-radius: 23px;
+	font-size: 17px;
+	line-height: 21px;
+	color: #ffffff;
+	background-color: #3954d9;
+	text-align: center;
+	cursor: pointer;
+}
 
 /* .main-navigation {
     font-family: "Bebas Neue Bold", Arial, sans-serif;
