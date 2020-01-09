@@ -72,7 +72,7 @@ img {
 }
 
 .container-center {
-	width: 1768px;
+	width: 1800px;
 	margin: 0 auto;
 	padding: 0 16px;
 }
@@ -88,7 +88,7 @@ img {
 	display: block;
 	width: 56px;
 	padding-top: 23px;
-	padding-bottom: 23px;
+	padding-bottom: 19px;
   border-right: 1px solid #000000;
 }
 
@@ -120,11 +120,11 @@ img {
 }
 
 .site-navigation li:first-child {
-	margin-left: 38px;
+	margin-left: 40px;
 }
 
 .site-navigation li {
-	margin-left: 34px;
+	margin-left: 36px;
 }
 
 .site-navigation a {
@@ -141,22 +141,25 @@ img {
 	flex-wrap: wrap;
 	margin: 0;
 	padding: 0;
-	width: 296px;
+	width: 300px;
 	border-right: 1px solid #000000;
 	list-style: none;
 	}
 
-.social-connection li:first-child,
+	.social-connection li {
+		margin-top: 24px;
+		margin-left: 38px;
+	}
+
+
 .social-connection li:last-child {
 	margin-top: 24px;
-}
-.social-connection li {
-	margin-top: 29px;
-	margin-left: 36px;
+	margin-left: 33px;
 }
 
 .social-connection li:nth-child(2) {
-	margin-left: 47px;
+	margin-left: 43px;
+	margin-top: 26px;
 }
 
 .user-nav {
@@ -168,10 +171,17 @@ img {
 }
 
 .user-nav li:first-child {
-	
-	margin-left: 21px;
+width: 57px;
+	 margin-left: 17px;
+	padding-top: 23px;
 	border-right: 1px solid #000000;
 }
+
+.user-nav li:last-child {
+	padding-top: 23px;
+	margin-left: 20px;
+}
+
 
 /* .main-navigation {
     font-family: "Bebas Neue Bold", Arial, sans-serif;
