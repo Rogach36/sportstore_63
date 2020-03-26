@@ -186,10 +186,11 @@ width: 57px;
 }
 
 .presentation {
-	width: 630px;
+	/* width: 630px; */
   margin-left: 272px;
 	padding-bottom: 134px;
   text-transform: uppercase;
+	text-align: center;
 }
 
 .title-nike-name {
@@ -198,11 +199,10 @@ width: 57px;
 	font-size: 203px;
 	font-weight: 700;
 	line-height: 147px;
-	text-align: center;
 	letter-spacing: -16px;
 }
 
-.slogan {
+/* .slogan {
 	margin-top: -178px;
 	margin-bottom: 53px;;
 	margin-left: 45px;
@@ -210,7 +210,7 @@ width: 57px;
 	font-weight: 700;
 	line-height: 29px;
 	letter-spacing: 7px;
-}
+} */
 
 .order-button {
 	display: block;
@@ -218,7 +218,7 @@ width: 57px;
 	margin-bottom: 80px;
 	padding-top: 15px;
 	padding-bottom: 12px;
-	width: 160px;
+	/* width: 160px; */
 	border-radius: 23px;
 	font-size: 17px;
 	line-height: 21px;
