@@ -72,7 +72,7 @@ img {
 }
 
 .container-center {
-	width: 1800px;
+	width: 1800px;  
 	margin: 0 auto;
 	padding: 0 16px;
 }
@@ -186,8 +186,13 @@ width: 57px;
 	margin-left: 20px;
 }
 
-.presentation-slide {
+.slide-wrapper {
 	width: 630px;
+  margin: 0 auto;
+}
+
+.presentation-slide {
+	 /* width: 630px; */
   margin-left: 272px;
 	padding-bottom: 134px;
   text-transform: uppercase;
