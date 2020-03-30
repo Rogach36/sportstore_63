@@ -61,8 +61,6 @@ img {
   overflow: hidden;
 }
 
-
-
 .cover-slide {
 	background-image: url("../img/Layer 8.jpg");
 	background-position: top center;
@@ -131,13 +129,8 @@ img {
 }
 
 .site-navigation a {
-	/* color: #ffffff; */
 	line-height: 25px;
 }
-
- /* .wrapper-sandwich {
-
-} */
 
 .social-connection {
   display: flex;
@@ -153,7 +146,6 @@ img {
 		margin-top: 24px;
 		margin-left: 38px;
 	}
-
 
 .social-connection li:last-child {
 	margin-top: 24px;
@@ -186,11 +178,13 @@ width: 57px;
 }
 
 .presentation {
-	/* width: 630px; */
-  margin-left: 272px;
-	padding-bottom: 134px;
+  margin: 0 auto;
+  padding-left: 19px;
+  padding-bottom: 134px;
+  max-width: 1400px;
   text-transform: uppercase;
-	text-align: center;
+  
+  
 }
 
 .title-nike-name {
@@ -199,10 +193,12 @@ width: 57px;
 	font-size: 203px;
 	font-weight: 700;
 	line-height: 147px;
+	text-align: center;
 	letter-spacing: -16px;
+	max-width: 630px;
 }
 
-/* .slogan {
+.slogan {
 	margin-top: -178px;
 	margin-bottom: 53px;;
 	margin-left: 45px;
@@ -210,7 +206,7 @@ width: 57px;
 	font-weight: 700;
 	line-height: 29px;
 	letter-spacing: 7px;
-} */
+}
 
 .order-button {
 	display: block;
@@ -218,7 +214,7 @@ width: 57px;
 	margin-bottom: 80px;
 	padding-top: 15px;
 	padding-bottom: 12px;
-	/* width: 160px; */
+	max-width: 160px;
 	border-radius: 23px;
 	font-size: 17px;
 	line-height: 21px;
