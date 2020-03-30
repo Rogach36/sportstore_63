@@ -1,0 +1,18 @@
+.parent {
+  width: 400px;
+  height: 400px;
+  border: 3px solid green;
+  /* position: relative; */
+  top: 50px;
+  margin: 0 auto;
+}
+
+.child {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border-radius: 50%;
+  border: 1px solid #000;
+
+  margin: 0 auto;
+}
