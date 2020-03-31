@@ -227,12 +227,22 @@ width: 57px;
 
 .lift-cover {
 	position: relative;
+	max-width: 1500px;
 	top: -74px;
-	left: 150px;
-	margin-left: 10px;
+	/* left: 150px; */
 	z-index: 10;
 	background-color: aqua;
-	}
+	margin: 0 auto;
+	} 
+
+	/* .lift-cover {
+		position: absolute;
+		width: 1500px;
+		top: 674px;
+		left: 150px;
+		z-index: 10;
+		background-color: aqua;
+		} */
 
 .delivery-list {
 	display: flex;
@@ -245,6 +255,10 @@ width: 57px;
 
 .delivety-item {
 	width: 375px;
+	text-align: center;
+	padding-left: 67px;
+	padding-right: 73px;
+	border-right: ;
 }
 
 /* .main-navigation {
