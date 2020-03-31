@@ -225,6 +225,28 @@ width: 57px;
 	cursor: pointer;
 }
 
+.lift-cover {
+	position: relative;
+	top: -74px;
+	left: 150px;
+	margin-left: 10px;
+	z-index: 10;
+	background-color: aqua;
+	}
+
+.delivery-list {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 1500px;
+	margin: 0 auto;
+	}
+
+.delivety-item {
+	width: 375px;
+}
+
 /* .main-navigation {
     font-family: "Bebas Neue Bold", Arial, sans-serif;
 
