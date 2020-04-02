@@ -229,21 +229,12 @@ width: 57px;
 	position: relative;
 	max-width: 1500px;
 	top: -74px;
-	/* left: 150px; */
 	z-index: 10;
 	background-color: aqua;
 	margin: 0 auto;
 	} 
 
-	/* .lift-cover {
-		position: absolute;
-		width: 1500px;
-		top: 674px;
-		left: 150px;
-		z-index: 10;
-		background-color: aqua;
-		} */
-
+	
 .delivery-list {
 	display: flex;
 	list-style: none;
@@ -258,7 +249,36 @@ width: 57px;
 	text-align: center;
 	padding-left: 67px;
 	padding-right: 73px;
-	border-right: ;
+	border-right: 1px solid #c7c7c7;
+	margin-bottom: 61px;
+	padding-top: 78px;
+}
+.delivety-item:last-child {
+	border-right: none;
+}
+
+.delivery-title {
+   font-family: 'Bebas Neue Bold', Arial, sans-serif;
+   font-weight: 400;
+   font-size: 33px;
+   line-height: 25px;
+   text-transform: uppercase;
+   color: #0d2e57;
+}
+
+.delivery-description {
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 24px;
+	color: #8a8a8a;
+}
+
+.delivery-button {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 25px;
+	color: #3753da;
+	
 }
 
 /* .main-navigation {
