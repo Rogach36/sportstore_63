@@ -209,21 +209,25 @@ width: 57px;
 	letter-spacing: 7px;
 }
 
-.order-button {
+.button {
 	display: block;
+	color: #ffffff;
+	border-radius: 22px;
+	background-color: #3954d9;
+	text-align: center;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.order-button {
 	margin-left: 242px;
 	margin-bottom: 80px;
 	padding-top: 15px;
 	padding-bottom: 12px;
 	max-width: 160px;
-	border-radius: 23px;
 	font-size: 17px;
 	line-height: 21px;
-	color: #ffffff;
-	background-color: #3954d9;
-	text-align: center;
-	cursor: pointer;
-}
+	}
 
 .lift-cover {
 	position: relative;
@@ -250,7 +254,7 @@ width: 57px;
 	padding-left: 67px;
 	padding-right: 73px;
 	border-right: 1px solid #c7c7c7;
-	margin-bottom: 61px;
+	padding-bottom: 61px;
 	padding-top: 78px;
 }
 .delivety-item:last-child {
@@ -278,8 +282,133 @@ width: 57px;
 	font-size: 13px;
 	line-height: 25px;
 	color: #3753da;
+}
+
+.month-offer {
+	background-color:#f2f0f0;
+}
+
+.month-offer-title {
+	font-family: "Poppins", Arial, sans-serif;
+	color: #616161;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25.07px;
+	letter-spacing: 1.1px;
+	text-transform: uppercase;	
+}
+
+.offer-list {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 	
 }
+
+.offer-item1 {
+	width: 753px;
+	text-align: center;
+}
+
+.name-shoes {
+	font-family: "Bebas Neue Bold", Arial, sans-serif;
+	font-size: 43px;
+	font-weight: 400;
+	line-height: 44.1px;
+	color: #0d2e57;
+	text-transform: uppercase;
+}
+
+.description-shoes {
+	margin-left: 129px;
+	margin-bottom: 42px;
+	width: 495px;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+	color: #8a8a8a;
+}
+
+.price-shoes {
+	display: flex;
+	margin-left: 243px;
+	
+}
+
+.new-price {
+	font-size: 52px;
+	font-weight: 700;
+	line-height: 62.4px;
+	color: #3954d9;
+}
+
+.old-price {
+	margin-left: 52px;
+	margin: 56px;
+	font-size: 33px;
+	font-weight: 500;
+	line-height: 58.14px;
+	text-decoration: line-through;
+	color: #121212;
+
+}
+
+.counter-list {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	margin-left: 225px;
+	padding: 0;
+}
+
+.timer {
+	width: 94px;
+	margin-right: 17px;
+	margin-bottom: 42px;
+	border-radius: 20px;
+	background-color: #ffffff;
+}
+
+.timer:last-child {
+	margin-right: 0;
+}
+
+.timer .number {
+	margin-bottom: 10px;
+	margin-top: 27px;
+	font-size: 38px;
+	font-weight: 400;
+	line-height: 3px;
+	text-transform: uppercase;
+	color: #2d2b27;
+}
+
+.timer .point {
+	margin-bottom: 10px;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 3px;
+	color: #121212;
+}
+
+.timer .word {
+	margin-bottom: 15px;
+}
+
+.order-button-good {
+	width: 128px;
+	margin-left: 322px;
+	margin-bottom: 79px;
+	padding: 16px 22px;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 16.27px;
+}
+/* .pic-presentation {
+	width: 752px;
+	height: 754px;
+} */
 
 /* .main-navigation {
     font-family: "Bebas Neue Bold", Arial, sans-serif;
