@@ -252,7 +252,7 @@ img {
 	z-index: 13;
 	background-color: #ffffff;
 	margin: 0 auto;
-	margin-top: -77px;
+	margin-top: -74px;
 	box-shadow: 0 0 62px rgba(12, 12, 12, 0.13); 
 }
 
@@ -272,8 +272,12 @@ img {
 	padding-left: 67px;
 	padding-right: 73px;
 	border-right: 1px solid #c7c7c7;
-	padding-bottom: 61px;
-	padding-top: 78px;
+	padding-bottom: 41px;
+	padding-top: 80px;
+}
+
+.delivety-item-life {
+	padding-top: 73px;
 }
 
 .delivety-item:last-child {
@@ -309,10 +313,13 @@ img {
 
 .month-offer-title {
 	font-family: "Poppins", Arial, sans-serif;
-	color: #616161;
+	margin-top: 121px;
+	margin-right: 12px;
+	margin-bottom: -20px;
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 25.07px;
+	color: #616161;
 	letter-spacing: 1.1px;
 	text-transform: uppercase;
 }
@@ -342,7 +349,7 @@ img {
 
 .description-shoes {
 	margin-left: 129px;
-	margin-bottom: 42px;
+	margin-bottom: -25px;
 	width: 495px;
 	font-size: 18px;
 	font-weight: 300;
@@ -485,6 +492,11 @@ img {
 	color: #ffffff;
 }
 
+.shoes-0 {
+	margin-left: 7px;
+	margin-top: 45px;
+}
+
 .name-promo-1 {
 	margin-left: 55px;
 	margin-top: 72px;
@@ -571,6 +583,7 @@ img {
 
 .price-good {
 	display: flex;
+	margin-top: -30px;
 	margin-bottom: 25px;
 }
 
@@ -586,6 +599,10 @@ img {
 
 .price-new {
 	margin-left: 52px;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 25.65px;
+	color: #3753da;
 }
 
 .price-old {
